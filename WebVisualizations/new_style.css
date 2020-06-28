@@ -1,0 +1,166 @@
+/* Add your styles here */
+
+html {
+    padding:2%; 
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+}
+.navbar-brand{
+
+    background-color: #77c4d3; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-weight: 300%;
+    display: inline-block;
+    font-size: 30px;
+}
+#brand-container{
+    margin-right: 30%;
+}
+body {
+    background:#daede2; 
+}
+.main-image{
+    float: left;
+    margin: 1px; 
+    margin-top: 10px;
+   
+}
+
+.container-nav {
+    margin-top:1%;
+    background:#49535a;
+
+}
+img {
+    size: 80%;
+    margin-top: 10%;
+    
+}
+div.summary {
+    color: #fff;
+    padding: 5%;
+    background:#77c4d3;
+    margin-top: 3%;
+}
+h1 {
+    font-size: 50px ;
+    font-weight: 900;
+}
+h2 {
+    font-size: 30px ;
+    font-weight: 900;
+}
+h3 {
+    font-size: 30px ;
+    font-weight: 300;
+}
+h3.comparison-h3{
+
+    font-size :20px;
+    font-weight:100;
+    text-align: center;
+    margin-left:30%;
+    margin-bottom:3%;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -5%;
+    font-weight: 500;
+}
+h3.card-title-Data {
+    margin: 2%;
+    font-size:40px;
+    font-weight: 500;
+    margin-bottom:3%;
+}
+h4.table-h4 {
+    font-size:20px;
+    margin-bottom:3%;
+}
+ p.main-page{
+    font-size: 20px;
+    margin-top:2%;
+    color:#fff;
+    text-align: justify;
+    line-height: 1.5em;
+
+ }
+div.visualization {
+    background:rgba(234,46,73,0.9);
+    color: #fff;
+    padding: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    text-align: center;
+}
+.card{
+    background:#daede2; 
+
+}
+.row-1 {
+    
+
+}
+
+.card-body{
+    margin-top: 2%;
+    background:#77c4d3;
+    color: #fff;
+    text-align: center;
+    height: 150%;
+}
+.container-fluid{
+    background:#daede2;
+}
+.card-body-data{
+    margin-top: 2%;
+    background:#fff;
+    text-align: center;
+}
+
+.column-1{
+    margin-left: 20%;
+    margin-right:20%;
+} 
+*{
+    box-sizing: border-box;
+}
+
+div, article, section, header, footer, nav, figure, li {
+    position: relative;
+}
+
+.col {
+    margin-top: -4%;
+    margin-bottom: -2%;
+    padding: 5%;
+}
+.col-lg-6{
+    margin-top: -4%;
+}
+.container-plot1{
+    height: 200%;
+}
+.col-lg-8 {
+    margin-top: 1%;
+    margin-bottom:1%;
+    background-color: #77c4d3;
+}
+@media (max-width:600px) {
+
+    h1 {
+        font-size: 25px ;
+        font-weight: 450;
+    }
+
+    h2 {
+        font-size: 15px ;
+        font-weight: 450;
+    }
+    .col {
+        width: 100%;
+    }
+}
